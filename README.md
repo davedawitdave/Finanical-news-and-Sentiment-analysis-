@@ -75,3 +75,14 @@ This project analyzes the correlation between daily stock performance and news s
 │   ├── calculate_performance.py     # Stock performance calculations
 ├── README.md                        # Project overview and details
 └── requirements.txt                 # Python dependencies
+# How to Run
+
+## Clone the Repository:
+```bash
+git clone https://github.com/davedawitdave/Finanical-news-and-Sentiment-analysis-.git
+```
+
+## Install Dependencies:
+```bash
+pip install -r requirements.txt
+```
