@@ -58,7 +58,7 @@ This project analyzes the correlation between daily stock performance and news s
 ## **Tools and Libraries**
 - **Python**, **Pandas**, **NumPy**
 - **Matplotlib**, **Seaborn** (for visualization)
-- **TA-Lib** (for technical analysis)
+- **TA-Lib and yfinance** (for technical analysis)
 - **NLTK**, **TextBlob** (for sentiment analysis)
 - **Git/GitHub** (for version control)
 
@@ -67,12 +67,11 @@ This project analyzes the correlation between daily stock performance and news s
 ├── data/                           # Stock and news CSV files
 ├── notebooks/
 │   ├── descriptive_eda.ipynb        # Descriptive stats and EDA
-│   ├── sentiment_analysis.ipynb     # Sentiment and correlation analysis
+│   ├── sentiment_analysis.ipynb     # Sentiment analysis 
+│   ├── technical_analysis.ipynb     # using ta-lib and finance libraries 
+│   ├── time_series_analysis.ipynb   # time series analysis of
 ├── scripts/
 │   ├── eda_functions.py             # EDA and visualization functions
 │   ├── calculate_performance.py     # Stock performance calculations
-├── visualizations/                  # Folder for generated graphs
-│   ├── performance_vs_sentiment.png # Stock returns and sentiment comparison
-│   ├── correlation_heatmap.png      # Correlation heatmap
 ├── README.md                        # Project overview and details
 └── requirements.txt                 # Python dependencies
